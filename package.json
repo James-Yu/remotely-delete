@@ -1,0 +1,28 @@
+{
+	"name": "remotely-delete",
+	"version": "1.0.0",
+	"description": "This plugin helps Remotely Save to record file and folder deletions in .obsidian.",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^16.11.6",
+		"@typescript-eslint/eslint-plugin": "5.29.0",
+		"@typescript-eslint/parser": "5.29.0",
+		"builtin-modules": "3.3.0",
+		"esbuild": "0.14.47",
+		"obsidian": "latest",
+		"tslib": "2.4.0",
+		"typescript": "4.7.4"
+	},
+	"dependencies": {
+		"@electron/remote": "^2.0.9",
+		"electron": "^20.1.4",
+		"glob": "^10.3.1"
+	}
+}

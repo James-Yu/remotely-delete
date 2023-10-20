@@ -1,0 +1,10 @@
+{
+	"id": "remotely-delete",
+	"name": "Remotely Delete",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.0",
+	"description": "This plugin helps Remotely Save to record file and folder deletions in .obsidian.",
+	"author": "James Yu",
+	"authorUrl": "https://jamesyu.me",
+	"isDesktopOnly": true
+}
